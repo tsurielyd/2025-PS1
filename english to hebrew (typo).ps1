@@ -1,4 +1,7 @@
-﻿Remove-Item .\output.txt -ErrorAction SilentlyContinue
+RunAs Set-ExecutionPolicy -ExecutionPolicy Unrestricted 
+
+
+Remove-Item .\output.txt -ErrorAction SilentlyContinue
 
 $string = Read-Host "הזן את הטקסט שהוקלד בטעות באנגלית"
 #letters
